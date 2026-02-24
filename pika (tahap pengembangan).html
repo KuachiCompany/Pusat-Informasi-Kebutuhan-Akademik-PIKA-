@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riset Center HMTI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{margin:0;background:#f4f6f9;color:#333}
+
+    header{
+      background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color:#fff;
+      padding:40px 20px;
+      text-align:center
+    }
+
+    header h1{margin:0;font-size:32px;font-weight:700}
+    header p{margin-top:10px;font-size:16px;opacity:.9}
+
+    .container{max-width:1200px;margin:auto;padding:40px 20px}
+
+    .section-title{text-align:center;margin-bottom:30px}
+    .section-title h2{margin:0;font-size:26px;color:#203a43}
+    .section-title p{margin-top:8px;color:#666}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+
+    .card{
+      background:#fff;
+      border-radius:14px;
+      padding:25px 20px;
+      text-align:center;
+      box-shadow:0 6px 15px rgba(0,0,0,.08);
+      transition:.3s
+    }
+
+    .card:hover{transform:translateY(-6px);box-shadow:0 10px 20px rgba(0,0,0,.12)}
+
+    .icon{font-size:38px;margin-bottom:10px}
+
+    .card h3{margin:10px 0 5px;font-size:18px;color:#203a43}
+    .card p{font-size:14px;color:#666;margin-bottom:15px}
+
+    .card a{
+      display:inline-block;
+      padding:8px 18px;
+      background:#203a43;
+      color:#fff;
+      border-radius:20px;
+      text-decoration:none;
+      font-size:13px;
+      transition:.3s
+    }
+
+    .card a:hover{background:#0f2027}
+
+    footer{
+      background:#0f2027;
+      color:#fff;
+      text-align:center;
+      padding:15px;
+      font-size:13px
+    }
+
+    .about{
+      background:#fff;
+      padding:30px 25px;
+      border-radius:14px;
+      box-shadow:0 6px 15px rgba(0,0,0,.08);
+      margin-bottom:40px
+    }
+
+    .about h2{margin-top:0;color:#203a43}
+    .about p{color:#555;line-height:1.7}
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 class="title">PIKA <span>HMTI</span></h1>
+  <p>Pusat Informasi & Kebutuhan Akademik</p>
+</header>
+
+<div class="container">
+
+  <div class="about">
+    <h2>Tentang Website</h2>
+    <p>
+      Website ini dikembangkan oleh <b>Divisi Riset Himpunan Mahasiswa Teknik Industri (HMTI)</b> sebagai pusat
+      kebutuhan akademik mahasiswa Teknik Industri. Website ini berfungsi sebagai <b>dashboard terintegrasi</b>
+      yang memudahkan mahasiswa dalam mengakses berbagai sumber belajar, referensi penelitian, serta dokumen
+      akademik pendukung.
+    </p>
+  </div>
+
+  <div class="section-title">
+    <h2>Pusat Kebutuhan Akademik</h2>
+    <p>Silakan pilih kategori sesuai kebutuhan akademik Anda</p>
+  </div>
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="icon">📘</div>
+      <h3>Kurikulum 2025</h3>
+      <p>Struktur kurikulum, RPS, dan silabus Teknik Industri 2025</p>
+      <a href="https://drive.google.com/drive/folders/1qdnOH7Muuh0S1HOchvOT3WKrRiQyA19J?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">📝</div>
+      <h3>UTS 2025</h3>
+      <p>Kumpulan soal dan pembahasan UTS tahun 2025</p>
+      <a href="https://drive.google.com/drive/folders/1Xw5i6M6ikviAdAGGpbBKoyav7wZ_Y70e?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔍</div>
+      <h3>Indusight</h3>
+      <p>Media riset, publikasi, dan kajian Teknik Industri</p>
+      <a href="https://drive.google.com/drive/folders/10NYY7z9QXXOmkWTIwyTYE6SKBKHEBbLY?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">📗</div>
+      <h3>Kurikulum 2024</h3>
+      <p>Dokumen kurikulum, RPS, dan silabus 2024</p>
+      <a href="https://drive.google.com/drive/folders/1HsPYx41HdzfxA0u4aC_OQTJIowsq_w4X?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">ℹ️</div>
+      <h3>Informasi Umum</h3>
+      <p>Pengumuman, agenda akademik, dan info kampus</p>
+      <a href="https://drive.google.com/drive/folders/1qmvB36rF8HNnB3XEPwp6xWN1w_7N-Vdd?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏅</div>
+      <h3>Informasi SKP</h3>
+      <p>Sistem Kredit Prestasi mahasiswa Teknik Industri</p>
+      <a href="https://drive.google.com/drive/folders/1IA-KHu3HdkcJjxpN8y_93vn4X65iWrnR?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">📙</div>
+      <h3>Kurikulum 2022</h3>
+      <p>Dokumen kurikulum dan RPS Teknik Industri 2022</p>
+      <a href="https://drive.google.com/drive/folders/1swv3r8vXk1tDPNLoQm5FsLuWXOEX_nZs?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">📕</div>
+      <h3>Kurikulum 2016</h3>
+      <p>Arsip kurikulum lama Teknik Industri</p>
+      <a href="https://drive.google.com/drive/folders/1aQewCKHPcfNBp7TpUt7dK6eyOSGHabOA?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">💻</div>
+      <h3>Software Penunjang</h3>
+      <p>Software pendukung perkuliahan dan praktikum</p>
+      <a href="https://drive.google.com/drive/folders/1PHrK0yLBG8eR3-jeCyV3dEi8E1ssdES4?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">📄</div>
+      <h3>Template Jurnal</h3>
+      <p>Format penulisan jurnal dan panduan submit</p>
+      <a href="https://drive.google.com/drive/folders/1JWQS9-xy2VeEnoTBqsI_RIlr_pMgyESL?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏭</div>
+      <h3>Informasi Kerja Praktik</h3>
+      <p>Panduan, format laporan, dan prosedur KP</p>
+      <a href="https://drive.google.com/drive/folders/1K8QDm29zB79m2ELZVDvnGzGykOI7Yx6g?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">📚</div>
+      <h3>Referensi Jurnal MK</h3>
+      <p>Kumpulan jurnal sesuai kebutuhan mata kuliah</p>
+      <a href="https://drive.google.com/drive/folders/1IBwyAjo1MCF5pk7IGQRefXwgoyQ7yBO7?usp=drive_link" target="_blank">Akses</a>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  © 2026 • Divisi Riset HMTI • Teknik Industri
+</footer>
+
+</body>
+</html>
